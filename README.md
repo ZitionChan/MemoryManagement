@@ -25,10 +25,12 @@ stimulator.run();
 输出文件：
 * `addr_seq_i.txt`保存进程i的所有随机访问的虚拟地址序列。
 * `visit_seq_i.txt` 保存进程i每次的访问信息，一行对应一次访问，对应信息如下：
-FirstPageNumber  SecondPageNumber  TLB hit/no hit  PT hit/no hit
+
+```FirstPageNumber  SecondPageNumber  TLB hit/no hit  PT hit/no hit```
 * `page_table_i.txt` 保存进程i最后一次运行结束后的page table。
 输出格式如下：
+```
 `first page number`:
 	`second page number`:  `frame number`
-
+```
 关于实验的参数全部位于`Config.h`内
