@@ -14,4 +14,62 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicalAddress.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualAddress.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TLB.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicalMemory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Address.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryManagement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PageTable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Address.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualAddress.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicalAddress.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TLB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PageTable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicalMemory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryManagement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="frameOrder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
