@@ -121,6 +121,7 @@
     <ClCompile Include="PageTable.cpp" />
     <ClCompile Include="PhysicalAddress.cpp" />
     <ClCompile Include="PhysicalMemory.cpp" />
+    <ClCompile Include="Stimulator.cpp" />
     <ClCompile Include="TLB.cpp" />
     <ClCompile Include="VirtualAddress.cpp" />
   </ItemGroup>
@@ -133,6 +134,7 @@
     <ClInclude Include="PageTable.h" />
     <ClInclude Include="PhysicalAddress.h" />
     <ClInclude Include="PhysicalMemory.h" />
+    <ClInclude Include="Stimulator.h" />
     <ClInclude Include="TLB.h" />
     <ClInclude Include="VirtualAddress.h" />
   </ItemGroup>

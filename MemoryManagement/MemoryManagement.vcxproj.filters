@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\Address">
+      <UniqueIdentifier>{1ed4befa-8d9c-4ae1-bd63-21bee94ea264}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -39,18 +42,12 @@
     <ClCompile Include="PageTable.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Stimulator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Address.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="VirtualAddress.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="Config.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="PhysicalAddress.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="TLB.h">
@@ -70,6 +67,18 @@
     </ClInclude>
     <ClInclude Include="frameOrder.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Stimulator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Address.h">
+      <Filter>头文件\Address</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualAddress.h">
+      <Filter>头文件\Address</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicalAddress.h">
+      <Filter>头文件\Address</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
