@@ -1,7 +1,7 @@
 # 虚拟内存管理器
 
 ## 运行环境
-本程序可以使用visual studio 2017编译运行，也可以使用如g++等其它编译器编译运行
+本程序可以使用visual studio 2017编译运行,需支持c++11。
 
 ## 运行说明
 注：若运行报错，请删除当前项目目录下`*.pgtb`文件
@@ -26,11 +26,11 @@ stimulator.run();
 * `addr_seq_i.txt`保存进程i的所有随机访问的虚拟地址序列。
 * `visit_seq_i.txt` 保存进程i每次的访问信息，一行对应一次访问，对应信息如下：
 
-```FirstPageNumber  SecondPageNumber  TLB hit/no hit  PT hit/no hit```
+```**FirstPageNumber  SecondPageNumber  TLB hit/no hit  PT hit/no hit**```
 * `page_table_i.txt` 保存进程i最后一次运行结束后的page table。
 输出格式如下：
 ```
-`first page number`:
-	`second page number`:  `frame number`
+first page number:
+	second page number:  frame number
 ```
 关于实验的参数全部位于`Config.h`内
